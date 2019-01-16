@@ -4,8 +4,8 @@ function DanceSpan(element, x, y) {
   element.position(20,800);
   
   this.brownian = function() {
-    x += random(-2, 2);
-    y += random(-2, 2);
+    x += random(-1, 1);
+    y += random(-1, 1);
     element.position(x,y);
   };
 }
@@ -18,7 +18,7 @@ function setup() {
 translate(0, 600);
   createCanvas(500,200);
   fill(0, 102, 153);
-  createP('UX/UI Researcher HumanFactorsEngineer Aeronautical Front-end Developer '
+  createP('UX/UIResearcher HumanFactorsEngineer AeronauticalEngineering Front-endDeveloper '
     ).addClass('text');
 
   // This line grabs the paragraph just created, but it would 
@@ -31,7 +31,7 @@ translate(0, 600);
     var words = paragraph.split(' ');
     for (var j=0; j<words.length; j++) {   
       var spannedWord = createSpan(words[j]);
-      var dw = new DanceSpan(spannedWord, random(600), random(200));
+      var dw = new DanceSpan(spannedWord, random(200), random(400));
       dancingWords.push(dw);
     }
   }
