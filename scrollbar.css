@@ -1,0 +1,180 @@
+
+
+/*scroll bar*/
+section {
+  padding: 0 1rem;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: grey; 
+    opacity: 0.05;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey; 
+    opacity: 0.2;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.scrollingbar {
+  overflow-x: auto;
+  margin-left: 200px;
+
+
+}
+
+.scrolling-wrapper {
+  width: 10000 px;
+  margin-top: 50px;
+
+}
+.scrolling-wrapper ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  /*margin-left: 50px;*/
+  /*background-color:#FFFFFF;*/
+
+}
+.scrolling-wrapper ul li {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.scrolling-wrapper ul li:nth-child(1) {
+  background-image: url(img/watch1.jpg);
+  height: 550px;
+  min-width: 500px;
+
+}
+.scrolling-wrapper ul li:nth-child(2) {
+  background-image: url(img/watch2.jpg);
+   height: 550px;
+  min-width: 500px;
+}
+.scrolling-wrapper ul li:nth-child(3) {
+  background-image: url(img/cvs1.png);
+   min-height: 500px;
+  min-width: 500px;
+}
+.scrolling-wrapper ul li:nth-child(4) {
+  background-image: url(img/cvs3.png);
+   min-height: 500px ;
+  min-width: 500px ;
+
+}
+.scrolling-wrapper ul li:nth-child(5) {
+  background-image: url(img/chairposter.png);
+   min-height: 500px ;
+  min-width: 700px ;
+
+}
+.scrolling-wrapper ul li:nth-child(6) {
+  background-image: url(img/heater.png);
+   min-height: 500px ;
+  min-width: 700px ;
+
+}
+.scrolling-wrapper ul li:nth-child(7) {
+  background-image: url(img/fapp1.png);
+   min-height: 500px ;
+  min-width: 500px ;
+
+}
+.scrolling-wrapper ul li:nth-child(8) {
+  background-image: url(img/fapp2.png);
+   min-height: 500px ;
+  min-width: 500px ;
+
+}
+.scrolling-wrapper ul li:nth-child(9) {
+  background-image: url(img/and1.png);
+   min-height: 550px ;
+  min-width: 500px ;
+
+}
+.scrolling-wrapper ul li:nth-child(10) {
+  background-image: url(img/and2.png);
+   min-height: 550px ;
+  min-width: 500px ;
+
+}
+.scrolling-wrapper ul li:nth-child(11) {
+  background-image: url(img/sn1.jpg);
+   min-height: 600px ;
+  min-width: 400px ;
+
+}
+.scrolling-wrapper ul li:nth-child(12) {
+  background-image: url(img/sn2.jpg);
+   min-height: 600px ;
+  min-width: 400px ;
+
+}
+.scrolling-wrapper ul li:nth-child(13) {
+  background-image: url(img/sn3.jpg);
+   min-height: 600px ;
+  min-width: 400px ;
+
+}
+.scrolling-wrapper ul li:nth-child(14) {
+  background-image: url(img/mara1.jpg);
+   min-height: 600px ;
+  min-width: 400px ;
+
+}
+.scrolling-wrapper ul li:nth-child(15) {
+  background-image: url(img/mara2.jpg);
+   min-height: 600px ;
+  min-width: 400px ;
+
+}
+
+
+.defaultdisplay {
+  display: none;
+}
+
+.item {
+  height: 200px;
+  width: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+   margin-left: 50px;
+}
+.hoverT {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.hoverTtext {
+    visibility: hidden;
+    width: 120px;
+/*    background-color: ;*/
+	color: lightgreen
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the hoverT */
+    position: relative;
+    z-index: 1;
+}
+.hoverT:hover .hoverTtext {
+    visibility: visible;
+}
