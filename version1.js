@@ -15,11 +15,12 @@ function setup() {
   // It's to differentiate the creation of an element from its 
   // selection. Selected elements don't need to be created by 
   // p5js, they can be just plain HTML.
-translate(0, 600);
-  createCanvas(500,200);
-  fill(0, 102, 153);
+translate(0, 400);
+  createCanvas(150,100);
+  // fill(0, 102, 153);
   createP('UX/UIResearcher HumanFactorsEngineer AeronauticalEngineering Front-endDeveloper '
     ).addClass('text');
+
 
   // This line grabs the paragraph just created, but it would 
   // also grab any other elements with class 'text' in the HTML
