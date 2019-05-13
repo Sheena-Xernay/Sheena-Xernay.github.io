@@ -17,10 +17,10 @@ function setup() {
   // p5js, they can be just plain HTML.
 translate(0, 400);
 //   createCanvas(150,100);
-  // fill(0, 102, 153);
+//   fill(0, 102, 153);
   createP('UX/UIResearcher HumanFactorsEngineer AeronauticalEngineering Front-endDeveloper '
     ).addClass('text');
-
+  p.hide();
 
   // This line grabs the paragraph just created, but it would 
   // also grab any other elements with class 'text' in the HTML
