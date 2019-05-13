@@ -17,7 +17,7 @@ function setup() {
   // p5js, they can be just plain HTML.
 translate(0, 400);
   createCanvas(150,100);
-  // fill(0, 102, 153);
+//   fill(0, 102, 153);
   createP('UX/UIResearcher HumanFactorsEngineer AeronauticalEngineering Front-endDeveloper '
     ).addClass('text');
 
@@ -26,7 +26,6 @@ translate(0, 400);
   // also grab any other elements with class 'text' in the HTML
   // page.
   var texts = selectAll('.text');
-
   for (var i=0; i<texts.length; i++) {
     var paragraph = texts[i].html();
     var words = paragraph.split(' ');
