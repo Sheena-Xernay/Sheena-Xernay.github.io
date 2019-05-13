@@ -16,7 +16,7 @@ function setup() {
   // selection. Selected elements don't need to be created by 
   // p5js, they can be just plain HTML.
 translate(0, 400);
-  createCanvas(150,100);
+//   createCanvas(150,100);
   // fill(0, 102, 153);
   createP('UX/UIResearcher HumanFactorsEngineer AeronauticalEngineering Front-endDeveloper '
     ).addClass('text');
