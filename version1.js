@@ -26,7 +26,6 @@ translate(0, 400);
   // also grab any other elements with class 'text' in the HTML
   // page.
   var texts = selectAll('.text');
-  p.hide();
   for (var i=0; i<texts.length; i++) {
     var paragraph = texts[i].html();
     var words = paragraph.split(' ');
